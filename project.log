@@ -1,0 +1,74 @@
+2025-05-15 22:14:46.225 | INFO     | __main__:<module>:42 - Logger loaded.
+2025-05-15 22:14:46.225 | INFO     | __main__:main:227 - #####################################
+2025-05-15 22:14:46.225 | INFO     | __main__:main:228 - # Starting execution of main()
+2025-05-15 22:14:46.225 | INFO     | __main__:main:229 - #####################################
+
+2025-05-15 22:14:46.225 | INFO     | __main__:main:232 - Byline: 
+---------------------------------------------------------
+Supplier Performance Analytics
+---------------------------------------------------------
+Total Suppliers:            15
+Suppliers Meet Deadlines:   True
+Average Defect Rate:        2.3%
+Supplier Names:             ABC Logistics, Global Freight Co., Swift Supply Chain, Evergreen Distribution, NextGen Transport
+Supplier Reliability Scores:[4.8, 3.9, 4.5, 4.2, 4.7]
+Delivery Times (days):      [2, 3, 5, 4, 2, 7, 3]
+Minimum Delivery Time:      2
+Maximum Delivery Time:      7
+Mean Delivery Time:         3.71
+Standard Deviation:         1.80
+
+2025-05-15 22:14:46.239 | INFO     | __main__:create_folders_for_range:68 - FUNCTION: create_folders_for_range()
+2025-05-15 22:14:46.239 | INFO     | __main__:create_folders_for_range:69 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-05-15 22:14:46.239 | INFO     | __main__:create_folders_for_range:75 - Created folder: C:\Projects\Repos\datafun-02-automation\2020
+2025-05-15 22:14:46.239 | INFO     | __main__:create_folders_for_range:75 - Created folder: C:\Projects\Repos\datafun-02-automation\2021
+2025-05-15 22:14:46.239 | INFO     | __main__:create_folders_for_range:75 - Created folder: C:\Projects\Repos\datafun-02-automation\2022
+2025-05-15 22:14:46.239 | INFO     | __main__:create_folders_for_range:75 - Created folder: C:\Projects\Repos\datafun-02-automation\2023
+2025-05-15 22:14:46.247 | INFO     | __main__:create_folders_for_range:80 - Created subfolder for supplier under year: C:\Projects\Repos\datafun-02-automation\2023\ABC Logistics
+2025-05-15 22:14:46.247 | INFO     | __main__:create_folders_for_range:80 - Created subfolder for supplier under year: C:\Projects\Repos\datafun-02-automation\2023\Global Freight Co.
+2025-05-15 22:14:46.247 | INFO     | __main__:create_folders_for_range:80 - Created subfolder for supplier under year: C:\Projects\Repos\datafun-02-automation\2023\Swift Supply Chain
+2025-05-15 22:14:46.251 | INFO     | __main__:create_folders_for_range:80 - Created subfolder for supplier under year: C:\Projects\Repos\datafun-02-automation\2023\Evergreen Distribution
+2025-05-15 22:14:46.251 | INFO     | __main__:create_folders_for_range:80 - Created subfolder for supplier under year: C:\Projects\Repos\datafun-02-automation\2023\NextGen Transport
+2025-05-15 22:14:46.251 | INFO     | __main__:create_folders_from_list:101 - FUNCTION: create_folders_from_list()
+2025-05-15 22:14:46.251 | INFO     | __main__:create_folders_from_list:102 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json'], to_lowercase = False, remove_spaces = False
+2025-05-15 22:14:46.251 | INFO     | __main__:create_folders_from_list:107 - Processing folder name: data-csv
+2025-05-15 22:14:46.251 | INFO     | __main__:create_folders_from_list:118 - Created folder: C:\Projects\Repos\datafun-02-automation\data-csv
+2025-05-15 22:14:46.256 | INFO     | __main__:create_folders_from_list:107 - Processing folder name: data-excel
+2025-05-15 22:14:46.259 | INFO     | __main__:create_folders_from_list:118 - Created folder: C:\Projects\Repos\datafun-02-automation\data-excel
+2025-05-15 22:14:46.265 | INFO     | __main__:create_folders_from_list:107 - Processing folder name: data-json
+2025-05-15 22:14:46.265 | INFO     | __main__:create_folders_from_list:118 - Created folder: C:\Projects\Repos\datafun-02-automation\data-json
+2025-05-15 22:14:46.265 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:140 - FUNCTION: create_prefixed_folders()
+2025-05-15 22:14:46.265 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:141 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-05-15 22:14:46.265 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:145 - Prefixed folder names: ['output-csv', 'output-excel', 'output-json']
+2025-05-15 22:14:46.274 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:152 - Created prefixed folder: C:\Projects\Repos\datafun-02-automation\output-csv
+2025-05-15 22:14:46.274 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:152 - Created prefixed folder: C:\Projects\Repos\datafun-02-automation\output-excel
+2025-05-15 22:14:46.274 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:152 - Created prefixed folder: C:\Projects\Repos\datafun-02-automation\output-json
+2025-05-15 22:14:46.274 | INFO     | __main__:create_folders_periodically:170 - FUNCTION: create_folders_periodically()
+2025-05-15 22:14:46.274 | INFO     | __main__:create_folders_periodically:171 - PARAMETER: duration_seconds = 5
+2025-05-15 22:14:46.274 | INFO     | __main__:create_folders_periodically:178 - Created folder: C:\Projects\Repos\datafun-02-automation\periodic_folder_1
+2025-05-15 22:14:51.281 | INFO     | __main__:create_folders_periodically:180 - Waited for 5 seconds before creating the next folder.
+2025-05-15 22:14:51.282 | INFO     | __main__:create_folders_periodically:178 - Created folder: C:\Projects\Repos\datafun-02-automation\periodic_folder_2
+2025-05-15 22:14:56.290 | INFO     | __main__:create_folders_periodically:180 - Waited for 5 seconds before creating the next folder.
+2025-05-15 22:14:56.291 | INFO     | __main__:create_folders_periodically:178 - Created folder: C:\Projects\Repos\datafun-02-automation\periodic_folder_3
+2025-05-15 22:15:01.293 | INFO     | __main__:create_folders_periodically:180 - Waited for 5 seconds before creating the next folder.
+2025-05-15 22:15:01.333 | INFO     | __main__:create_folders_periodically:178 - Created folder: C:\Projects\Repos\datafun-02-automation\periodic_folder_4
+2025-05-15 22:15:06.348 | INFO     | __main__:create_folders_periodically:180 - Waited for 5 seconds before creating the next folder.
+2025-05-15 22:15:06.349 | INFO     | __main__:create_folders_periodically:178 - Created folder: C:\Projects\Repos\datafun-02-automation\periodic_folder_5
+2025-05-15 22:15:11.357 | INFO     | __main__:create_folders_periodically:180 - Waited for 5 seconds before creating the next folder.
+2025-05-15 22:15:11.360 | INFO     | __main__:create_standardized_folders:202 - FUNCTION: create_standardized_folders()
+2025-05-15 22:15:11.360 | INFO     | __main__:create_standardized_folders:203 - PARAMETERS: folder_list = ['ABC Logistics', 'Global Freight Co.', 'Swift Supply Chain', 'Evergreen Distribution', 'NextGen Transport'], to_lowercase = True, remove_spaces = True
+2025-05-15 22:15:11.362 | INFO     | __main__:create_standardized_folders:217 - Created folder: C:\Projects\Repos\datafun-02-automation\abclogistics (original name: 'ABC Logistics')
+2025-05-15 22:15:11.363 | INFO     | __main__:create_standardized_folders:217 - Created folder: C:\Projects\Repos\datafun-02-automation\globalfreightco. (original name: 'Global Freight Co.')
+2025-05-15 22:15:11.365 | INFO     | __main__:create_standardized_folders:217 - Created folder: C:\Projects\Repos\datafun-02-automation\swiftsupplychain (original name: 'Swift Supply Chain')
+2025-05-15 22:15:11.365 | INFO     | __main__:create_standardized_folders:217 - Created folder: C:\Projects\Repos\datafun-02-automation\evergreendistribution (original name: 'Evergreen Distribution')
+2025-05-15 22:15:11.366 | INFO     | __main__:create_standardized_folders:217 - Created folder: C:\Projects\Repos\datafun-02-automation\nextgentransport (original name: 'NextGen Transport')
+2025-05-15 22:15:11.366 | INFO     | __main__:main:253 - 
+#####################################
+2025-05-15 22:15:11.368 | INFO     | __main__:main:254 - # Completed execution of main()
+2025-05-15 22:15:11.368 | INFO     | __main__:main:255 - #####################################
+2025-05-15 22:15:11.368 | INFO     | __main__:main:256 - All folders created successfully!
+2025-05-15 22:15:11.368 | INFO     | __main__:main:257 - Check the project.log file for details.
+2025-05-15 22:15:11.369 | INFO     | __main__:main:258 - Check the project directory for created folders.
+2025-05-15 22:15:11.369 | INFO     | __main__:main:259 - Exiting program.
+2025-05-15 22:15:11.369 | INFO     | __main__:main:260 - #####################################
+
